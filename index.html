@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script defer src="main.js"></script>
+    <title>CASTLE</title>
+    <script>
+        function muestra_oculta(id_elemento) {
+            var elemento = document.getElementById(id_elemento);
+            if (elemento.style.display == "none") {
+                elemento.style.display = "block";
+            } else {
+                elemento.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div>
+                <img src="./imagenes/LOGO GUANACASTLE2.png" alt="Logo Guanacastle" style="max-width: 200px;">
+            </div>
+            <nav>
+                <ul>                   
+                    <li><a href="http://www.guanacastle.com.mx/inicio">INICIO</a></li>
+                    <li><a href="#inspiración">INSPIRACIÓN</a></li>
+                    <li><a href="https://www.instagram.com/guana.castle/">NUESTROS PRODUCTOS</a></li>
+                    <li><a href="#taller">TALLER</a></li>
+                    <li><a href="https://www.facebook.com/guanacastlee">CONTACTO</a></li>
+                </ul>    
+            </nav>
+        </header>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/BUNNY.jpg" class="d-block w-100" alt="producto4">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/BEACH.jpg" class="d-block w-100" alt="producto5">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/FLOR.jpg" class="d-block w-100" alt="producto6">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="presentacion">
+                <h1>QUIENES SOMOS</h1>
+                <p>Somos un equipo apasionado dedicado al arte del crochet, comprometidos en ofrecer productos de alta calidad y diseño único. En GUANACASTLE, nuestra misión es simple: brindarte la oportunidad de disfrutar de productos artesanales excepcionales que aporten alegría, calidez y estilo a tu hogar.</p>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="caja">
+                <img src="./imagenes/Producto (1).jpg" alt="Producto" style="max-width: 100%;">
+                <h1>GUANACASTLE</h1>
+                <p>Nuestra misión es ofrecer productos de alta calidad y diseño único a través del arte del crochet brindando a nuestros clientes la posibilidad de disfrutar de productos artesanales excepcionales.</p>  
+            </div>
+            <div class="caja">
+                <img src="./imagenes/Producto (2).jpg" alt="Producto 2" style="max-width: 100%;">
+                <h1>INSPIRACIÓN</h1>
+                <p>Buscamos ser una fuente de inspiración para los amantes del crochet, ofreciendo una amplia gama de productos innovadores y únicos que se adapten a las preferencias y necesidades del mercado</p>
+            </div>
+            <div class="caja">
+                <img src="./imagenes/Producto (3).jpg" alt="producto 3" style="max-width: 100%;">
+                <h1>CREATIVIDAD</h1>
+                <p>Guana Castle se basa en la creatividad, la calidad, la valoración de la artesanía, la sostenibilidad y la atención al cliente. Buscamos ser reconocidos como una marca confiable y apreciada, que ofrece productos excepcionales y que contribuye al aprecio y la preservación del arte del crochet.</p>
+            </div>
+        </div>
+        <div class="taller" id="taller">
+            <h1>¿Te gustaría aprender la hermosa técnica del crochet desde la comodidad de tu hogar?</h1>
+            <p>¡Estás en el lugar indicado! En GUANACASTLE, ofrecemos cursos online de crochet diseñados para todos los niveles, desde principiantes hasta expertos. Aprenderás desde los fundamentos básicos hasta técnicas avanzadas, todo a tu propio ritmo y desde cualquier lugar. Ya sea que estés buscando aprender un nuevo pasatiempo creativo, mejorar tus habilidades existentes o simplemente relajarte tejiendo hermosas creaciones, nuestros cursos online de crochet son la opción perfecta para ti. ¡Únete a nuestra comunidad de tejedores y comienza tu viaje de creatividad hoy mismo!</p>
+            <button onclick="muestra_oculta('taller')" class="btn btn-primary" form="taller">+</button>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./IMAGENES/AMIGURUMI.jpg" class="d-block w-100" alt="producto7">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/MARIPOSA.jpg" class="d-block w-100" alt="producto8">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/LLAVERO.jpg" class="d-block w-100" alt="producto9">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="inspiración"  id="inspiración">
+            <h1>INSPIRACIÓN</h1>
+            <p>En GUANACASTLE impulsamos la preservación del arte del tejido a Crochet, por lo que creemos de suma importancia apoyar la divulgación de contenido de este bello arte, en esta sección podrás inspirarte con el trabajo de algunos canales de YouTube a crear tus propias obras.</p>
+            <div class="inspiración">   
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Ilw9C6fstZ0?si=3gjh6CD3R-7mH_JG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/zQsKbszaR6A?si=1Zelw8ZbZaROruGB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <p>Hecho con amor para el amor | GUANACASTLE.</p>
+    </footer>
+    
+    <script src="src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

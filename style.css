@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 200px; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.presentacion {
+    text-align: center;
+    padding: 20px;
+    font-family: serif;
+}
+
+.presentacion h1 {
+    color: #8b4a97;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.presentacion p {
+    font-size: 30px; 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.caja {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: serif;
+}
+
+.caja h1 {
+    color: #8b4a97;
+    font-size: 35px; 
+    font-weight: bold;
+    margin: 20px;
+}
+
+.caja p {
+    font-size: 30px; 
+}
+
+.taller, .inspiración {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: serif;
+}
+
+.taller h1, .inspiración h1 {
+    color: #1983a0;
+    font-size: 39px; 
+    font-weight: bold;
+    margin: 15px;
+}
+
+.taller p, .inspiración p {
+    font-size: 30px; 
+    margin: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
